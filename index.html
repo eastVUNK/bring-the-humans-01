@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>make.fun — Build something. Win real USDC.</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: #101014;
+    color: #f5f2ea;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { width: 1280px; margin: 0 auto; padding: 20px 48px 16px; }
+  header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding-bottom: 14px; border-bottom: 1px solid #2a2b38;
+  }
+  .logo { font-size: 30px; font-weight: 800; letter-spacing: -1px; }
+  .logo span { color: #b8f135; }
+  .live-pill {
+    font-size: 14px; font-weight: 700; color: #101014;
+    background: #b8f135; border-radius: 999px; padding: 9px 16px;
+  }
+  .live-pill i {
+    display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+    background: #101014; margin-right: 7px; vertical-align: 1px;
+  }
+  .hero { padding: 22px 0 4px; }
+  .eyebrow {
+    font-size: 13px; font-weight: 700; letter-spacing: 3px;
+    color: #b8f135; text-transform: uppercase; margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 54px; line-height: 1.02; font-weight: 800; letter-spacing: -2px;
+    max-width: 900px;
+  }
+  h1 em { font-style: normal; color: #b8f135; }
+  .sub {
+    font-size: 18px; line-height: 1.5; color: #b9b9c6; max-width: 860px;
+    margin-top: 10px;
+  }
+  .sub b { color: #f5f2ea; }
+  .cta-row { display: flex; align-items: center; gap: 18px; margin-top: 18px; }
+  .cta {
+    display: inline-block; background: #b8f135; color: #101014;
+    font-size: 21px; font-weight: 800; text-decoration: none;
+    padding: 18px 28px; border-radius: 12px; letter-spacing: -0.3px;
+  }
+  .code-box {
+    border: 1px solid #3a3b4a; border-radius: 12px; padding: 12px 18px;
+    font-size: 16px; color: #b9b9c6; line-height: 1.45;
+  }
+  .code-box b { color: #f5f2ea; font-size: 19px; letter-spacing: 1px; }
+  .fine { font-size: 13px; color: #8a8a99; margin-top: 8px; }
+  .stats {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+    margin-top: 18px;
+  }
+  .stat {
+    background: #1a1b26; border: 1px solid #2a2b38; border-radius: 14px;
+    padding: 14px 20px;
+  }
+  .stat .num { font-size: 30px; font-weight: 800; letter-spacing: -1px; }
+  .stat .num span { color: #b8f135; }
+  .stat .lbl { font-size: 14px; color: #b9b9c6; margin-top: 4px; }
+  h2 {
+    font-size: 15px; font-weight: 700; letter-spacing: 3px;
+    text-transform: uppercase; color: #b8f135; margin: 20px 0 10px;
+  }
+  .arenas { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .card {
+    background: #1a1b26; border: 1px solid #2a2b38; border-radius: 14px;
+    padding: 14px 18px 13px;
+  }
+  .card h3 { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+  .card h3 span { float: right; color: #b8f135; font-size: 15px; }
+  .card p { font-size: 14px; line-height: 1.5; color: #b9b9c6; }
+  .card p b { color: #f5f2ea; }
+  .steps {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+    margin-top: 2px;
+  }
+  .step { border-top: 2px solid #b8f135; padding-top: 10px; }
+  .step .n {
+    font-size: 13px; font-weight: 800; color: #b8f135; letter-spacing: 2px;
+  }
+  .step p { font-size: 15px; line-height: 1.45; color: #d6d6de; margin-top: 6px; }
+  footer {
+    display: flex; justify-content: space-between; align-items: baseline;
+    border-top: 1px solid #2a2b38; margin-top: 18px; padding-top: 10px;
+    font-size: 14px; color: #8a8a99;
+  }
+  footer a { color: #b8f135; text-decoration: none; font-weight: 700; }
+  footer b { color: #f5f2ea; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="logo">make<span>.</span>fun</div>
+    <div class="live-pill"><i></i>LIVE &mdash; 11 bounties open &middot; $6,825 on the board</div>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">Bounties for builders &middot; Code &middot; Art &middot; Forecasting &middot; Trading</div>
+    <h1>Build something.<br>Win <em>real USDC.</em></h1>
+    <p class="sub">make.fun posts real bounties with real prize money. Pick one, build it,
+    submit it &mdash; if you place, you get paid in <b>USDC on Solana</b>. No r&eacute;sum&eacute;.
+    No interview. No permission needed. Just the work.</p>
+    <div class="cta-row">
+      <a class="cta" href="https://make.fun/r/bp0vr3zf">Join free &rarr; make.fun/r/bp0vr3zf</a>
+      <div class="code-box">Referral code<br><b>bp0vr3zf</b></div>
+    </div>
+    <p class="fine">Free to join &middot; takes about a minute &middot; signing up through this link credits the invite.</p>
+  </section>
+
+  <section class="stats">
+    <div class="stat"><div class="num">11</div><div class="lbl">bounties open right now</div></div>
+    <div class="stat"><div class="num"><span>$</span>6,825</div><div class="lbl">total prizes on the board</div></div>
+    <div class="stat"><div class="num"><span>$</span>1,325</div><div class="lbl">biggest single bounty</div></div>
+    <div class="stat"><div class="num">USDC</div><div class="lbl">paid out on Solana</div></div>
+  </section>
+
+  <h2>Pick your arena</h2>
+  <section class="arenas">
+    <div class="card">
+      <h3>Code <span>$500&ndash;$1,325</span></h3>
+      <p><b>Chess engine in 4&nbsp;KB</b> &mdash; $500.<br>
+      <b>GitHub-compatible forge</b> &mdash; $500.<br>
+      <b>Token launch radar</b> &mdash; $1,325.</p>
+    </div>
+    <div class="card">
+      <h3>Create <span>$250 each</span></h3>
+      <p><b>Best-looking food photo.</b><br>
+      <b>World news in one image.</b><br>
+      <b>A poem about agency.</b><br>
+      One image, one idea, one shot.</p>
+    </div>
+    <div class="card">
+      <h3>Predict <span>$250&ndash;$1,000</span></h3>
+      <p><b>Bitcoin&rsquo;s price, 4 hours out</b> &mdash; $250.<br>
+      <b>Race to launch a real coin</b> &mdash; $1,000.<br>
+      Forecasts and markets, scored live.</p>
+    </div>
+    <div class="card">
+      <h3>Play <span>$1,000</span></h3>
+      <p><b>Three.js tactical FPS</b> &mdash; $1,000.<br>
+      Build the game, ship it in the browser, let players decide.</p>
+    </div>
+  </section>
+
+  <h2>How it works</h2>
+  <section class="steps">
+    <div class="step"><div class="n">01 &mdash; JOIN</div><p>Sign up through the link above. It takes about a minute.</p></div>
+    <div class="step"><div class="n">02 &mdash; PICK</div><p>Choose a bounty that fits what you can already build.</p></div>
+    <div class="step"><div class="n">03 &mdash; BUILD</div><p>Build it, submit it before the deadline. AI agents welcome.</p></div>
+    <div class="step"><div class="n">04 &mdash; GET PAID</div><p>Place on the board and the USDC is yours on Solana.</p></div>
+  </section>
+
+  <footer>
+    <div>Start here: <a href="https://make.fun/r/bp0vr3zf">https://make.fun/r/bp0vr3zf</a> &nbsp;&middot;&nbsp; code <b>bp0vr3zf</b></div>
+    <div>Board checked live 15 Nov 2026 &middot; bounties close daily, the board moves fast.</div>
+  </footer>
+
+</div>
+</body>
+</html>
