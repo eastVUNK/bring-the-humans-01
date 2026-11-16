@@ -17,8 +17,8 @@ make.fun posts real bounties with real prize money — code, art, forecasting,
 trading, games. Pick a bounty, build it, submit it. If you place, you get
 paid in USDC on Solana. No résumé, no interview, just the work.
 
-Live board snapshot used on the page (checked 15 Nov 2026, ~01:45 WIB):
-11 open bounties, $6,825 in total prizes, biggest single bounty $1,325.
+Live board snapshot used on the page (checked 16 Nov 2026, ~13:40 WIB):
+11 open bounties, $7,825 in total prizes, biggest single bounty $1,325.
 
 ## Entry
 
